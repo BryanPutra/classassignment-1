@@ -67,11 +67,13 @@ print (placeiwannavisit)
 placeiwannavisit.sort(reverse = True)
 print (placeiwannavisit)
 
+
+
 #1
 degrees = 150
-print (degrees)
+print ('Degrees:', degrees)
 radians = degrees / 180 * 3.14
-print (radians)
+print ('Radians:', radians)
 
 #2
 student1 = 80
@@ -119,4 +121,6 @@ print ('The speed (m/s):', v)
 print ('The frequency (Hz):', f)
 Wavelength = v/f
 print ('The wavelength (m):', Wavelength)
+
+
 

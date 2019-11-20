@@ -70,10 +70,13 @@ print (placeiwannavisit)
 
 
 #1
+def convertToRadius(degrees):
+    return (degrees*(3.14/180))
 degrees = 150
-print ('Degrees:', degrees)
-radians = degrees / 180 * 3.14
-print ('Radians:', radians)
+radius = convertToRadius(degrees)
+print ("Degrees:" + str(degrees))
+print ("Radius:" + str(radius))
+
 
 #2
 student1 = 80
